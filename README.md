@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('my mental health checker.jpg') no-repeat center top;
+      background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
       background-size: cover;
       background-color: #2a2a2a;
       color: #fff;
@@ -17,10 +17,8 @@
 
     @media (max-width: 600px) {
       body {
-        background: #2a2a2a;
-      }
-      header img {
-        height: 60px;
+        background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80') no-repeat center center fixed;
+        background-size: cover;
       }
     }
 
@@ -36,7 +34,7 @@
     }
 
     header img {
-      height: 100px;
+      height: 80px;
       margin-bottom: 10px;
     }
 
@@ -59,15 +57,12 @@
       font-weight: bold;
     }
 
-    input[type="range"] {
+    input[type="number"] {
       width: 100%;
-    }
-
-    .scale-labels {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9em;
-      opacity: 0.9;
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      margin-top: 5px;
     }
 
     button {
@@ -96,6 +91,13 @@
     .result-screen {
       text-align: center;
       padding-top: 50px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+      font-size: 1em;
+      line-height: 1.5;
     }
   </style>
 </head>
